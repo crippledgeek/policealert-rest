@@ -6,5 +6,5 @@ import se.disabledsecurity.policealert.rest.entity.AlertEntity;
 
 @Repository
 public interface AlertRepository extends CrudRepository<AlertEntity, Long> {
-    AlertEntity findByExternalId(Long ld);
+
 }
